@@ -1,0 +1,20 @@
+<div class="home-product">
+    <h2>San Pham ban chay</h2>
+    <div class="home-product-item container">
+        <div class="row" >
+            <div class="col-md-3" *ngFor="let item of products">
+                <div class="product-img">
+                    <img src="{{item.img}}" alt="">
+                </div>
+                <div class="product-tex">
+                    <p>{{item.name}}</p>
+                    <p>{{item.price}}</p>
+                </div>
+                <div class="product-Description">
+                    {{item.mota}}
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

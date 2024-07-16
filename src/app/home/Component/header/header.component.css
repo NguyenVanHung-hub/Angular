@@ -1,0 +1,50 @@
+.header-main{
+    
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 140%;
+    background-color: black;
+    color: white;
+}
+.logo{
+   
+}
+.menu{
+   width: 60%;
+}
+.menu ul{
+    
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin: 0;
+}
+.menu ul a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.SingeIn-Out{
+   
+}
+.SingeIn-Out button{
+    padding: 5px;
+    font-size: 90%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(90, 243, 90);
+}
+.SingeIn-Out button:nth-child(1){
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px
+}
+
+.header-bottom{
+    width: 100%;
+}
+.header-bottom img{
+    width: 100%;
+}
